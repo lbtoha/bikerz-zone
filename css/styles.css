@@ -1,0 +1,135 @@
+/* =====================================================
+              project font
+  ====================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-primary: #e76f51;
+  --color-secondary: rgba(231, 111, 81, 0.1);
+  --color-title: #0a0826;
+  --color-sub-title: #18191f;
+  --color-paragrap: #6c6c6c;
+}
+
+/* =====================================================
+              reset bootstrape project
+  ====================================================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* =====================================================
+              main title
+  ====================================================== */
+.main-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  color: var(--color-black);
+}
+
+.main-paragrap {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: var(--color-title);
+}
+
+.section-sub-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: var(--color-sub-title);
+}
+
+.paragrap {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-paragrap);
+}
+
+.highlight-text {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--color-primary);
+}
+
+/* ============================================
+              button
+  =============================================*/
+.button {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0.9375rem;
+}
+
+.button-border {
+  background: var(--color-white);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0.9375rem;
+}
+/* ============================================
+              navbar
+  =============================================*/
+.logo {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 52px;
+}
+
+.navbar-items li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navbar-items li {
+  padding-right: 2rem;
+}
+
+.login-btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.banner-bg {
+  background-color: var(--color-secondary);
+}
+
+.banner-padding {
+  padding: 6.25rem 6.25rem;
+}
+
+.slider-icon-style {
+  background-color: var(--color-primary);
+  opacity: 0.5;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
